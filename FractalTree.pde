@@ -20,7 +20,7 @@ public void drawBranches(int x,int y, double branchLength, double angle)
 	angle1= angle+branchAngle;
 	angle2= angle-branchAngle;
 	branchLength= branchLength*fractionLength;
- System.out.println(branchLength);
+ 
 
  	int endX1 = (int)(branchLength*Math.cos(angle1) + x);
 	int endY1 = (int)(branchLength*Math.sin(angle1) + y);
